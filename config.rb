@@ -9,5 +9,5 @@ activate :s3_sync do |s3_sync|
 end
 
 configure :build do
-
+  activate :minify_css
 end
