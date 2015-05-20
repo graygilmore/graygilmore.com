@@ -1,1 +1,1 @@
-#= require_tree .
+console.log "Nothing to see here..."
