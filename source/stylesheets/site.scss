@@ -1,3 +1,17 @@
+@font-face {
+  font-family: Overpass;
+  src: local("Overpass-Bold"),
+       url("/fonts/Overpass-Bold.woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Overpass;
+  src: local("Overpass-Regular"),
+       url("/fonts/Overpass-Regular.woff");
+  font-weight: normal;
+}
+
 html {
   box-sizing: border-box;
   min-height: 100%;
@@ -9,7 +23,7 @@ html {
 }
 
 body {
-  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-family: Overpass, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   display: flex;
   align-items: center;
