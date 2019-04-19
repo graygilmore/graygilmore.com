@@ -1,8 +1,5 @@
-set :css_dir, "stylesheets"
-set :images_dir, "images"
-
 activate :deploy do |deploy|
-  deploy.method = :rsync
+  deploy.deploy_method = :rsync
   deploy.host = "charmander"
   deploy.path = "/var/www/graygilmore.com/html"
 end
