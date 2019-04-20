@@ -1,0 +1,49 @@
+name: Montréal, Quebec
+description: |
+  An extremely walkable and friendly city. Don't worry about not speaking French
+  as almost everyone here will be able to speak to you in English. I like letting
+  people know I don't speak French by starting every conversation with:
+
+  > Bonjour, hello
+
+  Very rarely need to use public transportation so long as you stay in Le
+  Plateau-Mont-Royal area as you can walk everywhere. You can drink in public
+  parks so long as you also have food with you.
+
+neighbourhoods:
+  - name: Le Plateau-Mont-Royal
+    description: walk to everything, cute neighbourhoods, great food/drink options
+  - name: Mile End
+    description: bagels, shops, food/drink
+  - name: Little Italy
+    description: further from downtown, italian foods
+
+activities:
+  - name: La Fontaine Park
+    description: dog/people watch, bring your food from Ma Poule Mouillée
+  - name: Jeanne-Mance Park
+    description: bustling in the summer, bring some snacks and wine
+  - name: La Grande Roue de Montréal
+    description: ferris wheel, be a tourist!
+
+food:
+  - name: Réservoir
+    description: beer, fried chicken sandwich, pork sandwich (brunch)
+  - name: Dieu du Ciel!
+    description: beer, cheese
+  - name: Benelux
+    description: beer
+  - name: Ma Poule Mouillée
+    description: poutine
+  - name: Vices & Versa
+    description: beer, large patio
+  - name: Isle de Garde Brasserie
+    description: beer, cheese
+  - name: Schwartz's
+    description: an instatution, meat sandwich, only go if there's no lineup
+
+coffee:
+  - name: Café Nocturne
+    description: quiet, students study here, huge cookies
+  - name: La Finca
+    description: quiet, ability to work here
