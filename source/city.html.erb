@@ -1,0 +1,35 @@
+---
+layout: travel
+---
+
+<a href="/travel.html">← Travel Guide</a>
+
+<h1><%= city.name %></h1>
+
+<%= markdown(city.description) %>
+
+<%
+  sections = {
+    neighbourhoods: "Neighbourhoods",
+    activities: "Activities",
+    food: "Food",
+    coffee: "Coffee"
+  }
+%>
+
+<% sections.each do |section| %>
+  <% if city[section[0]].any? %>
+    <h2><%= section[1] %></h2>
+
+    <% city[section[0]].each do |item| %>
+      <p>
+        <strong><%= item.name %></strong>
+
+        <% if item.description %>
+          <br>
+          <%= item.description %>
+        <% end %>
+      </p>
+    <% end %>
+  <% end %>
+<% end %>

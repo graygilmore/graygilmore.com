@@ -39,3 +39,19 @@ body {
     margin-bottom: 0;
   }
 }
+
+blockquote {
+  margin: 1em 0;
+  padding: 1em;
+  background-color: #f7f7f7;
+  border-left: 5px solid rgb(197, 197, 197);
+  font-style: italic;
+
+  > *:first-child {
+    margin-top: 0;
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
+}

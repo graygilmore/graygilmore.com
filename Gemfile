@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
-gem "middleman", "~>3.3.10"
-gem "middleman-deploy", "~> 1.0"
+gem 'middleman', '~> 4.3'
+gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
