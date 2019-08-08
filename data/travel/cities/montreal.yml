@@ -10,7 +10,7 @@ description: |
   Plateau-Mont-Royal area as you can walk everywhere. You can drink in public
   parks so long as you also have food with you.
 
-neighbourhoods:
+Neighbourhoods:
   - name: Le Plateau-Mont-Royal
     description: walk to everything, cute neighbourhoods, great food/drink options
   - name: Mile End
@@ -18,7 +18,7 @@ neighbourhoods:
   - name: Little Italy
     description: further from downtown, italian foods
 
-activities:
+Activities:
   - name: La Fontaine Park
     description: dog/people watch, bring your food from Ma Poule Mouillée
   - name: Jeanne-Mance Park
@@ -26,7 +26,7 @@ activities:
   - name: La Grande Roue de Montréal
     description: ferris wheel, be a tourist!
 
-food:
+Food:
   - name: Réservoir
     description: beer, fried chicken sandwich, pork sandwich (brunch)
   - name: Dieu du Ciel!
@@ -42,7 +42,7 @@ food:
   - name: Schwartz's
     description: an instatution, meat sandwich, only go if there's no lineup
 
-coffee:
+Coffee:
   - name: Café Nocturne
     description: quiet, students study here, huge cookies
   - name: La Finca

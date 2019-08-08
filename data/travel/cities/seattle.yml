@@ -1,0 +1,74 @@
+name: Seattle, Washington
+description: |
+  My new home! It's called the Emerald City for a reason. If you can plan to be
+  here during May/June you will be blown away by the foliage.
+
+Neighbourhoods:
+  - name: Capitol Hill
+    description: food, shopping, its own mini-downtown, beautiful houses
+  - name: Ballard
+    description: 11 breweries in a one mile radius
+
+Activities:
+  - name: Baseball (Seattle Mariners)
+    description: train service to the stadium, nice ballpark
+  - name: Hiking
+    description: lots of options close by (see below), always try for weekdays
+      or early in the morning on the weekends due to how busy they get, there's
+      a shuttle service if you don't have a car
+  - name: Pike Place Market
+    description: it's going to be loaded with tourists but it's still cool to
+      check out
+  - name: Pike/Pine and Broadway (Capitol Hill)
+    description: lots of cool shops and restaurants to pop into, Elliot Bay Book
+      Company, Cal Anderson Park (CAP), Zions Gate Records, etc
+  - name: Ballard Brewery Passport
+    description: 11 breweries all within a one mile radius, grab a taster from
+      as many as you feel like exploring (Stoup and Reuben's being the best two)
+
+Hikes:
+  - name: Little Si
+  - name: Rattlesnake Ledge
+    description: continue going to the Middle or Upper Ledge to avoid crowds,
+      nice even elevation gain the whole way up
+
+Food and Drinks:
+  - name: Liberty
+    description: cocktail bar that looks like a dive bar that also has sushi
+  - name: Chuck's Hop Shop
+    description: huge selection of beer and a daily food truck, dog friendly
+  - name: Two Doors Down
+    description: burgers with a decent beer selection
+  - name: Bakery Nouveau
+    description: sandwiches and other baked goods, twice-baked almond croissant
+  - name: Artusi
+    description: pasta, wine
+  - name: Rachel's Ginger Beer
+    description: moscow mule, spicy chicken
+  - name: Li'l Woody's
+    description: backyard-style burgers
+  - name: Joule
+    description: modern take on Korean, family style
+
+Breweries:
+  - name: Cloudburst Brewing
+    description: Downtown
+  - name: Freemont Brewing Company
+    description: Fremont
+  - name: Stoup Brewing
+    description: Ballard
+  - name: Reuben's Brews
+    description: Ballard
+
+Coffee:
+  - name: Victrola
+    description: very large, lots of tables to work from
+  - name: Ada's Technical Books and Cafe
+    description: small kitchen, places to work
+  - name: Porchlight Coffee & Records
+
+Dessert:
+  - name: Hello Robin
+    description: ice cream sandos
+  - name: Full Tilt Ice Cream
+    description: ice cream, arcade, beer

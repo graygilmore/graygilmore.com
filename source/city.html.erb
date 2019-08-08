@@ -8,28 +8,17 @@ layout: travel
 
 <%= markdown(city.description) %>
 
-<%
-  sections = {
-    neighbourhoods: "Neighbourhoods",
-    activities: "Activities",
-    food: "Food",
-    coffee: "Coffee"
-  }
-%>
+<% city.except("name", "description").each do |name, items| %>
+  <h2><%= name %></h2>
 
-<% sections.each do |section| %>
-  <% if city[section[0]].any? %>
-    <h2><%= section[1] %></h2>
+  <% items.each do |item| %>
+    <p>
+      <strong><%= item.name %></strong>
 
-    <% city[section[0]].each do |item| %>
-      <p>
-        <strong><%= item.name %></strong>
-
-        <% if item.description %>
-          <br>
-          <%= item.description %>
-        <% end %>
-      </p>
-    <% end %>
+      <% if item.description %>
+        <br>
+        <%= item.description %>
+      <% end %>
+    </p>
   <% end %>
 <% end %>
