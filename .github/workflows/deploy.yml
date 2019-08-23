@@ -1,0 +1,31 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - deploy-workflow
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the branch
+        uses: actions/checkout@v1
+      - name: Set up Ruby 2.6
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6.x
+      - name: Bundler
+        run: |
+          gem install bundler
+          bundle install --jobs 4 --retry 3
+      - name: Build files
+        run: bundle exec middleman build
+      - name: Deploy
+        run: >
+          SSH_PATH="$HOME/.ssh"
+          mkdir "$SSH_PATH"
+          echo "$DEPLOY_KEY" > "$SSH_PATH/deploy_key"
+          chmod 600 "$SSH_PATH/deploy_key"
+          rsync -avz -e 'ssh -i $SSH_PATH/deploy_key -o StrictHostKeyChecking=no' build/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/graygilmore.com/html/test
